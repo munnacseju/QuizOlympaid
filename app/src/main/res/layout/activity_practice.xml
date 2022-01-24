@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:padding="10dp"
+    tools:context=".Practice">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+
+    </ScrollView>
+
+    <LinearLayout
+        android:visibility="visible"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayoutid"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/math_olympaid_logo"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/loadingTextViewId"
+            android:text="প্রাকটিস করুন, অভিজ্ঞতা অর্জন করুন। পরবর্তী অলিম্পিয়াডে ভালো করুন।"
+            android:textSize="20dp"
+            android:background="#FFFFFF"
+            android:textColor="#00695C"
+            android:textAlignment="center"
+            ></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectengle_button_color"
+            android:padding="2dp"
+            android:layout_marginTop="20dp"
+            >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Start Quiz"
+                android:id="@+id/startQuizid"
+                android:background="@drawable/rectangle_button"
+                android:visibility="gone"
+                ></Button>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+    <ScrollView
+        android:visibility="gone"
+        android:id="@+id/scrolViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/scoreTextViewid"
+                    android:text="score: 0"
+                    android:textColor="#00838F"
+                    android:textSize="15dp"
+                    ></TextView>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp"
+
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:padding="2dp">
+
+                    <TextView
+                        android:id="@+id/questionTextViewid"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="8.5"
+                        android:text="When did Bangladesh achieve independent?"
+                        android:textAlignment="center"
+                        android:textColor="#0277BD"
+                        android:textSize="20dp"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rectengle_button_color"
+                        android:padding="2dp">
+
+                        <Button
+                            android:id="@+id/option1Buttonid"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rectangle_button"
+                            android:text="option 1"
+                            android:textColor="#1565C0"></Button>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/rectengle_button_color"
+                        android:padding="2dp">
+
+                        <Button
+                            android:id="@+id/option2Buttonid"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rectangle_button"
+                            android:textColor="#0277BD"
+                            android:text="option 2"></Button>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/rectengle_button_color"
+                        android:padding="2dp">
+
+                        <Button
+                            android:id="@+id/option3Buttonid"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="option 3"
+                            android:textColor="#0277BD"
+                            android:background="@drawable/rectangle_button"
+                            ></Button>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/rectengle_button_color"
+                        android:padding="2dp">
+
+                        <Button
+                            android:id="@+id/option4Buttonid"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="option 4"
+                            android:textColor="#0277BD"
+                            android:background="@drawable/rectangle_button"
+                            ></Button>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                >
+                <TextView
+                    android:layout_weight="8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="2dp"
+                    android:layout_gravity="center"
+                    android:background="#1565C0"
+                    >
+                </TextView>
+
+
+                <Button
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Next"
+                    android:id="@+id/nextQuizid"
+                    android:textColor="#fff"
+                    android:visibility="gone"
+                    android:background="@drawable/rectengle_button_color"
+                    ></Button>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

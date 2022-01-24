@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Registration">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/logo"
+                android:layout_marginBottom="20dp"
+                ></ImageView>
+
+            <TextView
+                android:textAlignment="center"
+                android:background="#FDFBFB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registration Processing"
+                android:textStyle="bold"
+                android:textColor="#0A0A0A"
+                android:textSize="30dp"
+                android:visibility="gone"
+                android:id="@+id/registrationTextViewid"
+                ></TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp"
+                >
+
+                <LinearLayout
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#fff"
+                    >
+                    <TextView
+                        android:layout_marginLeft="2dp"
+                        android:background="#FFFFFF"
+                        android:layout_width="75dp"
+                        android:layout_height="wrap_content"
+                        android:text="Email:"
+                        android:textSize="22dp"
+                        android:textColor="#004D40"
+                        ></TextView>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rectengle_button_color"
+                        android:padding="2dp"
+                        >
+                        <EditText
+                            android:background="@drawable/rectangle_button"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/emailEditTextid"
+                            android:textSize="22dp"
+                            android:textStyle="bold"
+                            android:textColor="#004D40"
+                            android:textAlignment="center"
+                            ></EditText>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#fff"
+                    >
+                    <TextView
+                        android:background="#FFFFFF"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="Password:"
+                        android:textSize="22dp"
+                        android:textColor="#004D40"
+                        ></TextView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rectengle_button_color"
+                        android:padding="2dp"
+                        >
+
+                        <EditText
+                            android:background="@drawable/rectangle_button"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/passwordEditTextid"
+                            android:textSize="22dp"
+                            android:textAlignment="center"
+                            android:textColor="#004D40"
+                            ></EditText>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#fff"
+                    >
+                    <TextView
+                        android:layout_marginLeft="2dp"
+                        android:background="#FFFFFF"
+                        android:layout_width="75dp"
+                        android:layout_height="wrap_content"
+                        android:text="Name:"
+                        android:textSize="22dp"
+                        android:textColor="#004D40"
+                        ></TextView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rectengle_button_color"
+                        android:padding="2dp"
+                        >
+
+                        <EditText
+                            android:background="@drawable/rectangle_button"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/nameEditTextid"
+                            android:textSize="22dp"
+                            android:textAlignment="center"
+                            android:textColor="#004D40"
+                            ></EditText>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#fff"
+                    >
+                    <TextView
+                        android:layout_marginLeft="2dp"
+                        android:background="#FFFFFF"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="Phone No:"
+                        android:textSize="22dp"
+                        android:textColor="#004D40"
+                        ></TextView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rectengle_button_color"
+                        android:padding="2dp"
+                        >
+                        <EditText
+                            android:background="@drawable/rectangle_button"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/phoneNumberEditTextid"
+                            android:textSize="22dp"
+                            android:textColor="#004D40"
+                            android:textAlignment="center"
+                            ></EditText>
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#fff"
+                    >
+                    <TextView
+                        android:layout_marginLeft="2dp"
+                        android:background="#FFFFFF"
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content"
+                        android:text="Institution:"
+                        android:textSize="22dp"
+                        android:textColor="#004D40"
+                        ></TextView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rectengle_button_color"
+                        android:padding="2dp"
+                        >
+
+                        <EditText
+                            android:background="@drawable/rectangle_button"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/institutionEditTextid"
+                            android:textSize="22dp"
+                            android:textAlignment="center"
+                            android:textColor="#004D40"
+                            ></EditText>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#fff"
+                    >
+                    <TextView
+                        android:background="#FFFFFF"
+                        android:layout_width="75dp"
+                        android:layout_height="wrap_content"
+                        android:text="Class:"
+                        android:textSize="22dp"
+                        android:textColor="#004D40"
+                        ></TextView>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rectengle_button_color"
+                        android:padding="2dp"
+                        >
+                        <EditText
+                            android:background="@drawable/rectangle_button"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/classEditTextid"
+                            android:textAlignment="center"
+                            android:textSize="22dp"
+                            android:textColor="#004D40"
+                            ></EditText>
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <Button
+                android:layout_marginTop="3dp"
+                android:layout_width="200dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/profileImageSelectorButtonid"
+                android:text="Select a Profile Image"
+                android:textStyle="bold"
+                android:textColor="#004D40"
+                android:background="@drawable/rounded_button"
+                ></Button>
+
+            <ImageView
+                android:id="@+id/profileImageid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"></ImageView>
+
+            <Button
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/rectengle_button_color"
+                android:layout_marginTop="5dp"
+                android:layout_width="200dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Conform Registration"
+                android:id="@+id/registrationButtonid"
+                ></Button>
+
+
+            <ProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/progressBarid"
+                android:visibility="gone"
+                ></ProgressBar>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:background="#111"
+                    ></LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:textStyle="bold"
+                android:textColor="#00695C"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I Already Have an Account"
+                android:id="@+id/loginButtonid"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+
+                ></Button>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:title="send"
+        app:showAsAction="always"
+        android:id="@+id/sendMenuItemid"
+        ></item>
+
+    <item
+        android:id="@+id/shareMenuItemid"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="Share"
+        ></item>
+
+    <item
+        android:id="@+id/rulesMenuItemid"
+        app:showAsAction="never"
+        android:title="Rulse"
+        ></item>
+
+    <item
+        android:id="@+id/aboutMenuItemid"
+        android:title="About"
+        app:showAsAction="never"
+        ></item>
+
+    <item
+        android:id="@+id/feedBackMenuItemid"
+        android:title="Feed Back"
+        app:showAsAction="never"
+        ></item>
+
+    <item
+        android:id="@+id/logOutMenuItemid"
+        android:title="Log Out"
+        app:showAsAction="never"
+        ></item>
+
+    <item
+        android:id="@+id/questionSetUpMenuItemId"
+        android:title="Question Set Up"
+        android:visible="false"
+        app:showAsAction="never"
+        ></item>
+
+
+</menu>

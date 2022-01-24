@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">JUSC (Jahangirnagar University Science Club)</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Math Olympaid</string>
+    <string name="nav_header_subtitle">http://www.jutecbd.org/</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Edit Profile</string>
+    <string name="menu_slideshow">Olympaid</string>
+    <string name="menu_tools">JUSC</string>
+    <string name="menu_share">Website</string>
+    <string name="menu_send">Facebook Page</string>
+
+    <string name="rules">
+        অনুগ্রহ করে কিছুক্ষণ অপেক্ষা করুন এবং নিয়ম কানুন গুলো ভালো করে পড়ুন।\n
+        ১. আপনি ২০টি প্রশ্নের উত্তর দেওয়ার সুযোগ পাবেন। \n
+        ২. প্রতিটি প্রশ্নের জন্য ৩০ সেকেন্ড করে সময় পাবেন। \n
+        ৩. নির্ধারিত সময়ের পূর্বে সঠিক উত্তর সিলেক্ট না করতে পারলে আপনি উত্তর দেওয়া থেকে বঞ্চিত হবেন।\n
+        ৪. প্রতিটি প্রশ্নের জন্য ১ মার্কস করে নির্ধারিত।\n
+        ৫. যেকোন প্রশ্ন এড়িয়ে যেতে চাইলে নেক্সট বাটনে ক্লিক করুন।\n
+        ৬. একবার একটি প্রশ্ন এড়িয়ে গেলে পরবর্তিতে সেটা পুনরায় ফিরে পাবেন না।\n
+        ৭. পরিক্ষা চলাকালিন অন্য কোন ট্যাব ওপেন করলে আপনাকে সাসপেন্ড করা হতে পারে।
+    </string>
+
+    <string name="juscdetails">
+        জাহাঙ্গীরনগর ইউনিভার্সিটি সায়েন্স ক্লাব বিশ্ববিদ্যালয়টির একমাত্র বিজ্ঞাণ ভিত্তিক ক্লাব। জাহাঙ্গীরনগর ইউনিভার্সিটি সায়েন্স ক্লাব সম্পর্কে বিস্তারিত আসছে...
+    </string>
+</resources>

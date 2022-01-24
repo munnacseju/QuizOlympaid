@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutUs"
+    android:background="#CEB0B0"
+    android:padding="5dp"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#EBE3E3"
+            android:padding="5dp"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/com"
+                >
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/back_button_foreground"
+                    android:id="@+id/abouUSBackButtonId"
+                    ></ImageView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:background="#D6BABA"
+                >
+
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/rectengle_button_color"
+                    android:padding="2dp"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rectangle_button"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        >
+
+
+                        <TextView
+                            android:text="Application"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="20dp"
+                            android:textColor="#000"
+                            android:textStyle="italic"
+                            ></TextView>
+
+
+                        <LinearLayout
+                            android:layout_marginLeft="30dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:src="@drawable/logo"
+                                ></ImageView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="start"
+                                android:text="JUSC"
+                                android:textColor="#000"
+                                android:textSize="20dp"
+                                android:layout_marginLeft="10dp"
+                                ></TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginLeft="30dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:background="@android:drawable/ic_menu_info_details"
+                                ></ImageView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="start"
+                                android:text="Version  1.0"
+                                android:textColor="#000"
+                                android:textSize="20dp"
+                                android:layout_marginLeft="10dp"
+                                ></TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginLeft="30dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="center"
+                                android:foregroundGravity="center"
+                                android:src="@android:drawable/sym_action_call"></ImageView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="start|bottom"
+                                android:text="01999236811"
+                                android:textColor="#000"
+                                android:textSize="20dp"
+                                android:layout_marginLeft="10dp"
+                                ></TextView>
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/rectengle_button_color"
+                    android:padding="2dp"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rectangle_button"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        >
+
+
+                        <TextView
+                            android:text="Developer"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="20dp"
+                            android:textColor="#000"
+                            android:textStyle="italic"
+                            ></TextView>
+
+
+                        <LinearLayout
+                            android:layout_marginLeft="30dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:src="@drawable/autor_foreground"
+                                ></ImageView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="left"
+                                android:text="Motiur Rahman Munna"
+                                android:textColor="#000"
+                                android:textSize="18dp"
+                                android:layout_marginLeft="10dp"
+                                ></TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginLeft="30dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="center"
+                                android:foregroundGravity="center"
+                                android:src="@android:drawable/ic_menu_myplaces"></ImageView>
+
+                            <TextView
+                                android:id="@+id/contactWithDeveloperid"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="start|bottom"
+                                android:text="Contact with developer"
+                                android:textColor="#000"
+                                android:textSize="18dp"
+                                android:layout_marginLeft="10dp"
+                                ></TextView>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="2dp"
+                    android:background="@drawable/rectengle_button_color"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rectangle_button"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        >
+
+
+                        <TextView
+                            android:text="Designer"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="20dp"
+                            android:textColor="#000"
+                            android:textStyle="italic"
+                            ></TextView>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginLeft="30dp"
+                            >
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:src="@drawable/autor_foreground"
+                                ></ImageView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="left"
+                                android:text="Taslima Tabassum Rimpa"
+                                android:textColor="#000"
+                                android:textSize="18dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_gravity="center"
+
+                                ></TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginLeft="30dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="center"
+                                android:foregroundGravity="center"
+                                android:src="@android:drawable/ic_menu_myplaces"></ImageView>
+
+                            <TextView
+                                android:id="@+id/contactWithDesignerId"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="start|bottom"
+                                android:text="Contact with designer"
+                                android:textColor="#000"
+                                android:textSize="18dp"
+                                android:layout_marginLeft="10dp"
+                                ></TextView>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/rectengle_button_color"
+                    android:layout_marginTop="20dp"
+                    android:padding="2dp"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rectangle_button"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        >
+
+
+                        <TextView
+                            android:text="Company"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="20dp"
+                            android:textColor="#000000"
+                            android:textStyle="italic"
+                            ></TextView>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginLeft="30dp"
+                            >
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:background="@drawable/company"
+                                ></ImageView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="start"
+                                android:text="JUTECBD.COM"
+                                android:textColor="#000"
+                                android:textSize="20dp"
+                                android:layout_marginLeft="10dp"
+                                ></TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_marginLeft="30dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="center"
+                                android:foregroundGravity="center"
+                                android:src="@android:drawable/ic_menu_myplaces"></ImageView>
+
+                            <TextView
+                                android:id="@+id/contactWithCompanyId"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="start|bottom"
+                                android:text="Website"
+                                android:textColor="#000"
+                                android:textSize="20dp"
+                                android:layout_marginLeft="10dp"
+                                ></TextView>
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_marginLeft="30dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            >
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="center"
+                                android:foregroundGravity="center"
+                                android:src="@android:drawable/sym_action_call"></ImageView>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="start|bottom"
+                                android:text="01965412774"
+                                android:textColor="#000"
+                                android:textSize="20dp"
+                                android:layout_marginLeft="10dp"
+                                ></TextView>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

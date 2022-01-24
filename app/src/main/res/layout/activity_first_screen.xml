@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".FirstScreen">
+
+    <ImageView
+        android:layout_weight="7"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/logo"
+        ></ImageView>
+
+
+
+
+    <TextView
+        android:layout_weight="1.2"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="A \nProduct of"
+        android:textColor="#6A1B9A"
+
+        ></TextView>
+
+
+    <ImageView
+        android:layout_weight="1.3"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/company"
+        ></ImageView>
+
+</LinearLayout>

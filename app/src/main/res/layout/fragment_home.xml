@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:textAlignment="center"
+                android:visibility="gone"
+                android:layout_marginBottom="10dp"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/olympaidRunningTextViewId"
+                android:text="Olympaid is running..."
+                android:textStyle="bold"
+                android:textColor="#FC0404"
+                ></TextView>
+
+
+            <ProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/profileProgressBarid"
+                android:visibility="visible"
+                ></ProgressBar>
+
+
+
+            <ImageView
+                android:foregroundGravity="center"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:id="@+id/imageViewId"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/company"
+                android:background="#742020"
+                ></ImageView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="2dp"
+                    android:background="#C07373"
+
+                    >
+                    <LinearLayout
+                        android:id="@+id/verifyLinearLayoutid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#F8E9EC"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        >
+
+
+                        <TextView
+                            android:layout_marginBottom="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#F35F31"
+                            android:text="You are not verified user"
+                            android:textSize="20dp"
+                            android:textStyle="italic"
+                            android:textAlignment="center"
+                            android:id="@+id/verifyTextViewid"
+                            ></TextView>
+                        <ProgressBar
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/verifyProgressBarid"
+                            android:visibility="gone"
+                            ></ProgressBar>
+                        <Button
+                            android:id="@+id/verifyButtonid"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Click to verify"
+                            android:layout_gravity="center"
+                            android:textColor="#004D40"
+                            android:textSize="15dp"
+                            android:background="@drawable/rounded_button"
+                            ></Button>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    >
+
+                    <LinearLayout
+                        android:layout_weight="3.8"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Level: "
+                            android:textColor="#00695C"
+                            android:textSize="18dp"
+                            ></TextView>
+
+                        <TextView
+                            android:id="@+id/levelTextViewid"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Loading..."
+                            android:textColor="#00695C"
+                            android:textSize="18dp"
+                            ></TextView>
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:gravity="right"
+                        android:layout_gravity="right"
+                        android:layout_weight="6.2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+
+                        >
+
+                        <TextView
+                            android:textColor="#00695C"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Olympaid Point: "
+                            android:textSize="18dp"
+                            android:layout_gravity="center">
+                        </TextView>
+
+                        <TextView
+                            android:layout_gravity="right"
+                            android:gravity="right"
+                            android:textColor="#00695C"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Loading..."
+                            android:id="@+id/olympaidPointTextViewId"
+                            android:layout_marginLeft="2.5dp"
+                            android:textSize="18dp"
+                            ></TextView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Motiur Rahman Munna"
+                android:textAlignment="center"
+                android:textSize="35dp"
+                android:textColor="#660C0C"
+                android:id="@+id/nameTextViewId"
+                android:layout_marginBottom="10dp"
+
+                ></TextView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FCFBFB"
+                android:orientation="vertical"
+                android:padding="4dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/school_foreground"
+                            android:layout_gravity="center"
+                            ></ImageView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Institution"
+                            android:textAlignment="center"
+                            android:textColor="#004D40"
+                            android:textSize="20dp"
+                            ></TextView>
+
+
+                        <TextView
+                            android:id="@+id/institutionTextViewId"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginTop="2dp"
+                            android:text="Loading..."
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="20dp"
+                            ></TextView>
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="#ffffff"
+                            ></TextView>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+                    android:padding="3dp">
+
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Class:"
+                        android:textColor="#000000"
+                        android:textSize="18dp"
+                        ></TextView>
+
+                    <TextView
+                        android:layout_weight="2"
+                        android:id="@+id/classTextViewId"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="2.5dp"
+                        android:text="Loading..."
+                        android:textColor="#020202"
+                        android:textSize="18dp"
+                        ></TextView>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+                    android:padding="3dp">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Practice Point:"
+                        android:textColor="#050505"
+                        android:textSize="18dp"
+                        ></TextView>
+
+                    <TextView
+                        android:layout_weight="2"
+                        android:id="@+id/practicePointTextViewId"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="2.5dp"
+                        android:text="Loading..."
+                        android:textColor="#000000"
+                        android:textSize="18dp"
+                        ></TextView>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+                    android:padding="3dp">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Phone No:"
+                        android:textColor="#000000"
+                        android:textSize="18dp"
+                        ></TextView>
+
+                    <TextView
+                        android:layout_weight="2"
+                        android:id="@+id/phoneNoTextViewId"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="2.5dp"
+                        android:text="Loading..."
+                        android:textColor="#000000"
+                        android:textSize="18dp"
+                        ></TextView>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+                    android:padding="3dp">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="top"
+                        android:gravity="top"
+                        android:text="Email:"
+                        android:textColor="#000000"
+                        android:textSize="18dp"
+                        ></TextView>
+
+                    <TextView
+                        android:layout_weight="2"
+                        android:id="@+id/emailTextViewId"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="2.5dp"
+                        android:text="Loading..."
+                        android:textColor="#000000"
+                        android:textSize="18dp"
+                        ></TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="5dp"
+                >
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

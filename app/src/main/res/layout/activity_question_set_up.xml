@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#004D40"
+    tools:context=".QuestionSetUp">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/math_olympaid_logo"
+                android:layout_marginBottom="20dp"
+                ></ImageView>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#FFFFFF"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#004D40"
+                    android:layout_gravity="center"
+                    android:text="Select"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    ></TextView>
+
+                <Spinner
+                    android:id="@+id/selectSpinnerid"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    ></Spinner>
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/removeQuestionSetid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Remove the Question Set"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:background="#004D40"
+                ></Button>
+
+            <LinearLayout
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:background="#FFFFFF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Question:"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:textColor="#004D40"
+                    ></TextView>
+
+                <EditText
+                    android:layout_marginLeft="3dp"
+                    android:background="#FAF7F7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/questionEditTextid"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:textColor="#004D40"
+                    ></EditText>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:background="#FFFFFF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Option1:"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:textColor="#004D40"
+                    ></TextView>
+
+                <EditText
+                    android:layout_marginLeft="3dp"
+                    android:background="#FAF8F8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/option1EditTextid"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:textColor="#004D40"
+                    ></EditText>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:background="#FFFFFF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Option2:"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:textColor="#004D40"
+                    ></TextView>
+
+
+                <EditText
+                    android:layout_marginLeft="3dp"
+                    android:background="#F4F7F7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/option2EditTextid"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:textColor="#004D40"
+                    ></EditText>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:background="#FFFFFF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Option3:"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:textColor="#004D40"
+                    ></TextView>
+
+
+
+                <EditText
+                    android:layout_marginLeft="3dp"
+                    android:background="#FFFEFE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/option3EditTextid"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:textColor="#004D40"
+                    ></EditText>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:background="#FFFFFF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Option4:"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:textColor="#004D40"
+                    ></TextView>
+
+
+
+
+                <EditText
+                    android:layout_marginLeft="3dp"
+                    android:background="#FAF8F8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/option4EditTextid"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:textColor="#004D40"
+                    ></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#FFFFFF"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#004D40"
+                    android:layout_gravity="center"
+                    android:text="Currect Option"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    ></TextView>
+
+                <Spinner
+                    android:id="@+id/currectOptionSpinnerid"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    ></Spinner>
+
+            </LinearLayout>
+
+
+
+            <Button
+                android:layout_marginTop="3dp"
+                android:layout_width="200dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/submitButtonid"
+                android:text="Submit"
+                android:textStyle="bold"
+                android:textColor="#004D40"
+                android:background="@drawable/rounded_button"
+                ></Button>
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="200dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/setOlympaidsheduleid"
+                android:text="Set Olympaid Schedule"
+                android:textStyle="bold"
+                android:textColor="#004D40"
+                android:background="@drawable/rounded_button"
+                ></Button>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

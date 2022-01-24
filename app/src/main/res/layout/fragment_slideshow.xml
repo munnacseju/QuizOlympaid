@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <LinearLayout
+                android:gravity="center"
+                android:id="@+id/quizTypeSelectorLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/math_olympaid_logo"
+                    ></ImageView>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rectengle_button_color"
+                    android:padding="2dp"
+                    android:layout_marginTop="5dp"
+                    >
+
+                    <Button
+                        android:textStyle="bold"
+                        android:textSize="25dp"
+                        android:textColor="#FEFFFF"
+                        android:id="@+id/participaieInAOlympaid2Buttonid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Olympaid"
+                        android:background="@drawable/ripple_test"
+                        >
+                    </Button>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rectangle_button"
+                    android:padding="2dp"
+                    android:layout_marginTop="5dp"
+                    >
+
+                    <Button
+                        android:textStyle="bold"
+                        android:textSize="25dp"
+                        android:textColor="#FFFFFF"
+                        android:id="@+id/practiceQuizeButtonid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Practice Quiz"
+                        android:background="@drawable/ripple_test"
+                        >
+                    </Button>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/practiceLayoutid"
+                android:visibility="gone"
+                android:background="#FFF"
+                android:padding="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#004D40"
+                    >
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:id="@+id/lock1Imageviewid"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/lock_foreground"
+                        ></ImageView>
+                    <Button
+                        android:textStyle="bold"
+                        android:textSize="30dp"
+                        android:textColor="#fff"
+                        android:id="@+id/practice1Buttonid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Practice-01"
+                        android:background="#004D40"
+                        >
+                    </Button>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_marginTop="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#004D40"
+                    >
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:id="@+id/lock2Imageviewid"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/lock_foreground"
+                        ></ImageView>
+                    <Button
+                        android:textStyle="bold"
+                        android:textSize="30dp"
+                        android:textColor="#fff"
+                        android:id="@+id/practice2Buttonid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Practice-02"
+                        android:background="#004D40"
+                        >
+                    </Button>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#004D40"
+                    >
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:id="@+id/lock3Imageviewid"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/lock_foreground"
+                        ></ImageView>
+                    <Button
+                        android:textStyle="bold"
+                        android:textSize="30dp"
+                        android:textColor="#fff"
+                        android:id="@+id/practice3Buttonid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Practice-03"
+                        android:background="#004D40"
+                        >
+                    </Button>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#004D40"
+                    >
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:id="@+id/lock4Imageviewid"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/lock_foreground"
+                        ></ImageView>
+                    <Button
+                        android:textStyle="bold"
+                        android:textSize="30dp"
+                        android:textColor="#fff"
+                        android:id="@+id/practice4Buttonid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Practice-04"
+                        android:background="#004D40"
+                        >
+                    </Button>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#004D40"
+                    >
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:id="@+id/lock5Imageviewid"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/lock_foreground"
+                        ></ImageView>
+                    <Button
+                        android:textStyle="bold"
+                        android:textSize="30dp"
+                        android:textColor="#fff"
+                        android:id="@+id/practice5Buttonid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Practice-05"
+                        android:background="#004D40"
+                        >
+                    </Button>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#004D40"
+                    >
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:id="@+id/lock6Imageviewid"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/lock_foreground"
+                        ></ImageView>
+                    <Button
+                        android:textStyle="bold"
+                        android:textSize="30dp"
+                        android:textColor="#fff"
+                        android:id="@+id/practice6Buttonid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Practice-06"
+                        android:background="#004D40"
+                        >
+                    </Button>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#004D40"
+                    >
+
+                    <ImageView
+                        android:id="@+id/lock7Imageviewid"
+                        android:layout_width="47dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/lock_foreground"></ImageView>
+                    <Button
+                        android:textStyle="bold"
+                        android:textSize="30dp"
+                        android:textColor="#fff"
+                        android:id="@+id/practice7Buttonid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Practice-07"
+                        android:background="#004D40"
+                        >
+                    </Button>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#004D40"
+                    >
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:id="@+id/lock8Imageviewid"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/lock_foreground"
+                        ></ImageView>
+                    <Button
+                        android:textStyle="bold"
+                        android:textSize="30dp"
+                        android:textColor="#fff"
+                        android:id="@+id/practice8Buttonid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Practice-08"
+                        android:background="#004D40"
+                        >
+                    </Button>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#004D40"
+                    >
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:id="@+id/lock9Imageviewid"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/lock_foreground"
+                        ></ImageView>
+                    <Button
+                        android:textStyle="bold"
+                        android:textSize="30dp"
+                        android:textColor="#fff"
+                        android:id="@+id/practice9Buttonid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Practice-09"
+                        android:background="#004D40"
+                        >
+                    </Button>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#004D40"
+                    >
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:id="@+id/lock10Imageviewid"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/lock_foreground"
+                        ></ImageView>
+                    <Button
+                        android:textStyle="bold"
+                        android:textSize="30dp"
+                        android:textColor="#fff"
+                        android:id="@+id/practice10Buttonid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Practice-10"
+                        android:background="#004D40"
+                        >
+                    </Button>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#004D40"
+                    >
+
+                    <ImageView
+                        android:id="@+id/lock11Imageviewid"
+                        android:layout_width="45dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/lock_foreground"></ImageView>
+                    <Button
+                        android:textStyle="bold"
+                        android:textSize="30dp"
+                        android:textColor="#fff"
+                        android:id="@+id/practice11Buttonid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Practice-11"
+                        android:background="#004D40"
+                        >
+                    </Button>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#004D40"
+                    >
+
+                    <ImageView
+                        android:id="@+id/lock12Imageviewid"
+                        android:layout_width="45dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/lock_foreground"></ImageView>
+
+                    <Button
+                        android:textStyle="bold"
+                        android:textSize="30dp"
+                        android:textColor="#fff"
+                        android:id="@+id/practice12Buttonid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#004D40"
+                        android:text="Practice-12"
+                        >
+                    </Button>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

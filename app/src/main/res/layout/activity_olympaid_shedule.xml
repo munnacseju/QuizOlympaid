@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:padding="10dp"
+    tools:context=".OlympaidShedule">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#004D40"
+        android:padding="5dp"
+
+        >
+
+        <LinearLayout
+            android:padding="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#004D40"
+                android:layout_gravity="center"
+                android:text="Select Date"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                ></TextView>
+
+            <Spinner
+                android:id="@+id/selectdateSpinnerid"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                ></Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#004D40"
+                android:layout_gravity="center"
+                android:text="Select Month"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                ></TextView>
+
+            <Spinner
+                android:id="@+id/selectMontSpinnerid"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                ></Spinner>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:padding="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#004D40"
+                android:layout_gravity="center"
+                android:text="Select Year"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                ></TextView>
+
+            <Spinner
+                android:id="@+id/selectYearSpinnerid"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                ></Spinner>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:padding="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#004D40"
+                android:layout_gravity="center"
+                android:text="Select Hour"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                ></TextView>
+
+            <Spinner
+                android:id="@+id/selectHourSpinnerid"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                ></Spinner>
+
+        </LinearLayout>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/submitButtonid"
+            android:text="Submit"
+            android:textSize="25dp"
+            ></Button>
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBarid"
+            android:visibility="gone"
+            ></ProgressBar>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/goOlympaidButtonid"
+        android:text="Go Olympaid"
+        android:textSize="25dp"
+        ></Button>
+
+    <TextView
+        android:id="@+id/olympaidScheduleShowTextViewid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#004D40"
+        ></TextView>
+
+
+</LinearLayout>
