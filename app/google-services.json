@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "933354856547",
-    "firebase_url": "https://navtest-b12b9-default-rtdb.firebaseio.com",
-    "project_id": "navtest-b12b9",
-    "storage_bucket": "navtest-b12b9.appspot.com"
+    "project_number": "695895513007",
+    "firebase_url": "https://quizolympaid-b899f-default-rtdb.firebaseio.com",
+    "project_id": "quizolympaid-b899f",
+    "storage_bucket": "quizolympaid-b899f.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:933354856547:android:7cfa425b2c68a742479856",
+        "mobilesdk_app_id": "1:695895513007:android:f01ab2ddc18093060f415a",
         "android_client_info": {
           "package_name": "com.example.navtest"
         }
       },
       "oauth_client": [
         {
-          "client_id": "933354856547-leddkrqiue2655fcv5flg80jumojnrc5.apps.googleusercontent.com",
+          "client_id": "695895513007-smgpdvmgs2ag8ha1d0aip04s0285h6cs.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCxTXsS48OkPtya11ftUQLIz12Gh0VufCU"
+          "current_key": "AIzaSyCi-cCyvFnRVZ5jkEU2I3kEDNDpQ9uAGWg"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "933354856547-leddkrqiue2655fcv5flg80jumojnrc5.apps.googleusercontent.com",
+              "client_id": "695895513007-smgpdvmgs2ag8ha1d0aip04s0285h6cs.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
